@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by aaron</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+.myDiv {
+  border: 5px outset ;
+  border-style: dotted dashed solid double;
+  border-color: #663399 #3366CC #3399FF #33CCCC;
+  background-color: lightblue;
+  text-align: center; margin: auto; max-width: 500px;
+}
+    </style>
+    
+    <title>購車</title>
+  </head>
+  <body bgcolor="#CCCCFF">
+<div class="myDiv">    
+    <form>
+      <h3>預約看車</h3>
+      <input type="text" name="aaccount" placeholder="推薦碼">
+      <input type="submit" value="驗證">
+    </form>
+    
+    <form>
+      <h3>聯絡資訊</h3>
+     大名:<input name="name" type="text">
+      <br>
+      性別:<input name="sex" type="radio" value="male">男
+      <input name="sex" type="radio" value="female">女
+      <br>
+      email:<input name="email" type="email">
+      <br>
+      連絡電話:<input name="tel" type="tel">
+      <br>
+      看車日期:<input name="checkin" type="date" value="2023-3-8">
+      <br>
+      方便時間:<input name="dinner" type="time" value="18:00">
+      <br>
+      <hr>
+      持有的車子品牌:
+      <select name="brand" size="5" multiple>
+        <option value="1">Mercedes-Benz</option>
+        <option value="2">BMW</option>
+        <option value="3">Toyota</option>
+        <option value="4">Volkswagen</option>
+        <option value="5">Honda</option>
+        <option value="6">Mazda</option>
+        <option value="7">Nissan</option>
+        <option value="8">其他</option>
+      </select>
+      <br><br>
+      持有的車子類型:
+      <select name="type" size="5" multiple>
+        <option value="11">Saloon</option>
+        <option value="12">Coupe</option>
+        <option value="13">Wagon</option>
+        <option value="14">Hatchback</option>
+        <option value="15">Convertible</option>
+        <option value="16">Shooting Brake</option>
+        <option value="17">SUV</option>
+        <option value="18">其他</option>
+      </select>
+      <br><br>
+      <hr>
+       <p>喜歡的車款:</p>
+    <input name="topic" type="checkbox" value="mazda cx-5">mazda cx-5
+    <input name="topic" type="checkbox" value="mazda 3 5d">mazda 3 5d
+    <input name="topic" type="checkbox" value="mazda cx-30">mazda cx-30
+    <input name="topic" type="checkbox" value="mazda cx-3">mazda cx-3
+    <br>
+    <input name="topic" type="checkbox" value="mazda cx-9">mazda cx-9
+    <input name="topic" type="checkbox" value="mazda 3 4d">mazda 3 4d
+    <input name="topic" type="checkbox" value="mazda 6 wagon">mazda 6 wagon
+    <input name="topic" type="checkbox" value="mazda 6">mazda 6
+    <br>
+    <input name="topic" type="checkbox" value="mazda mx5">mazda mx5
+    <input name="topic" type="checkbox" value="mazda 2">mazda 2
+    <br>
+    想看的顏色1:<input name="color" type="color" value="#ff0000">
+    <br>
+    想看的顏色2:<input name="color" type="color" value="#ff0000">
+    <br>
+    乘客數量需求:
+      <select name="num">
+        <option value="1">1人</option>
+        <option value="2">2人</option>
+        <option value="3">3人</option>
+        <option value="4">4人</option>
+        <option value="5">更多</option>
+      </select>
+    
+    <br>
+    <hr>
+  </form>
+
+  <form name="feedback">
+    <p>表單滿意度:</p>
+    待加強<input name="Meals" type="range" min="1" max="5">還可以
+    <br>
+    特殊需求或建議[想額外確認的功能或加購等等]:<br>
+      <textarea name="comment" rows="3" cols="15"></textarea>
+    <br>
+    <input type="reset" value="重填">
+    <input type="submit" value="送出">
+  </form>
+    </div>
+</body>
+<!-- partial -->
+  
+</body>
+</html>
